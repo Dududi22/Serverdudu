@@ -1,0 +1,875 @@
+[14May2025 07:26:15.150] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[14May2025 07:26:15.155] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[14May2025 07:26:17.524] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14May2025 07:26:17.579] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Serverdudu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14May2025 07:26:17.879] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverdudu/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[14May2025 07:26:17.881] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverdudu/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[14May2025 07:26:17.882] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverdudu/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[14May2025 07:26:17.883] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverdudu/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[14May2025 07:26:18.134] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
+[14May2025 07:26:20.910] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14May2025 07:26:21.113] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[14May2025 07:26:21.154] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.aizistral.enigmaticlegacy.MixinConnector]
+[14May2025 07:26:21.157] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[14May2025 07:26:21.180] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[14May2025 07:26:21.289] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 111 options available, 0 override(s) found
+[14May2025 07:26:21.308] [main/WARN] [mixin/]: Reference map 'mixins.boh.refmap.json' for mixins.boh.json could not be read. If this is a development environment you can ignore this message
+[14May2025 07:26:21.348] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[14May2025 07:26:22.308] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
+[14May2025 07:26:22.309] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
+[14May2025 07:26:22.309] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found mixins.prehistoricfauna.json:GuiMixin
+[14May2025 07:26:22.968] [main/WARN] [mixin/]: Error loading class: net/darkhax/darkutils/features/charms/CharmEffects (java.lang.ClassNotFoundException: net.darkhax.darkutils.features.charms.CharmEffects)
+[14May2025 07:26:22.971] [main/WARN] [mixin/]: Error loading class: com/brandon3055/csg/ModEventHandler (java.lang.ClassNotFoundException: com.brandon3055.csg.ModEventHandler)
+[14May2025 07:26:22.986] [main/WARN] [mixin/]: Error loading class: vazkii/quark/content/tweaks/module/AutomaticRecipeUnlockModule (java.lang.ClassNotFoundException: vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule)
+[14May2025 07:26:23.114] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/VertexFormat$Mode for invalid dist DEDICATED_SERVER
+[14May2025 07:26:23.114] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/vertex/VertexFormat$Mode (java.lang.RuntimeException: Attempted to load class com/mojang/blaze3d/vertex/VertexFormat$Mode for invalid dist DEDICATED_SERVER)
+[14May2025 07:26:23.220] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14May2025 07:26:24.354] [main/INFO] [mixin/]: Mixing MixinLivingEntity from enigmaticlegacy.mixins.json into net.minecraft.world.entity.LivingEntity
+[14May2025 07:26:24.726] [main/INFO] [mixin/]: Mixing MixinPlayer from enigmaticlegacy.mixins.json into net.minecraft.world.entity.player.Player
+[14May2025 07:26:24.950] [main/INFO] [mixin/]: Mixing MixinMobEffect from enigmaticlegacy.mixins.json into net.minecraft.world.effect.MobEffect
+[14May2025 07:26:26.110] [main/INFO] [mixin/]: Mixing AccessorAbstractArrowEntity from enigmaticlegacy.mixins.json into net.minecraft.world.entity.projectile.AbstractArrow
+[14May2025 07:26:26.259] [main/INFO] [mixin/]: Mixing MixinEnchantmentContainer from enigmaticlegacy.mixins.json into net.minecraft.world.inventory.EnchantmentMenu
+[14May2025 07:26:26.265] [main/INFO] [mixin/]: Renaming synthetic method lambda$onEnchantedItem$0(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/EnchantmentMenu;ILnet/minecraft/world/entity/player/Player;ILnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V to md1fc3a0$lambda$onEnchantedItem$0$0 in enigmaticlegacy.mixins.json:MixinEnchantmentContainer
+[14May2025 07:26:26.291] [main/INFO] [mixin/]: Mixing MixinItemStack from enigmaticlegacy.mixins.json into net.minecraft.world.item.ItemStack
+[14May2025 07:26:27.062] [main/INFO] [mixin/]: Mixing MixinEnderEyeItem from enigmaticlegacy.mixins.json into net.minecraft.world.item.EnderEyeItem
+[14May2025 07:26:27.082] [main/INFO] [mixin/]: Mixing MixinCrossbowItem from enigmaticlegacy.mixins.json into net.minecraft.world.item.CrossbowItem
+[14May2025 07:26:28.158] [main/INFO] [mixin/]: Mixing MixinEnderDragon from enigmaticlegacy.mixins.json into net.minecraft.world.entity.boss.enderdragon.EnderDragon
+[14May2025 07:26:28.159] [main/INFO] [mixin/]: Renaming synthetic method lambda$onTickDeath$0(Lnet/minecraft/server/level/ServerPlayer;)V to md1fc3a0$lambda$onTickDeath$0$0 in enigmaticlegacy.mixins.json:MixinEnderDragon
+[14May2025 07:26:28.386] [main/INFO] [mixin/]: Mixing MixinShulker from enigmaticlegacy.mixins.json into net.minecraft.world.entity.monster.Shulker
+[14May2025 07:26:28.633] [main/INFO] [mixin/]: Mixing MixinVillagerEntity from enigmaticlegacy.mixins.json into net.minecraft.world.entity.npc.Villager
+[14May2025 07:26:28.635] [main/INFO] [mixin/]: Mixing MixinVillager from enigmaticlegacy.mixins.json into net.minecraft.world.entity.npc.Villager
+[14May2025 07:26:28.757] [main/INFO] [mixin/]: Mixing MixinBindingCurseEnchantment from enigmaticlegacy.mixins.json into net.minecraft.world.item.enchantment.BindingCurseEnchantment
+[14May2025 07:26:29.289] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[14May2025 07:26:29.939] [modloading-worker-0/INFO] [mixin/]: Mixing MixinPlayerList from enigmaticlegacy.mixins.json into net.minecraft.server.players.PlayerList
+[14May2025 07:26:30.469] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[14May2025 07:26:30.470] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[14May2025 07:26:30.561] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
+[14May2025 07:26:30.800] [modloading-worker-0/INFO] [mixin/]: Mixing MixinEnterBlockTrigger from enigmaticlegacy.mixins.json into net.minecraft.advancements.critereon.EnterBlockTrigger
+[14May2025 07:26:30.808] [modloading-worker-0/INFO] [mixin/]: Mixing MixinInventoryChangeTrigger from enigmaticlegacy.mixins.json into net.minecraft.advancements.critereon.InventoryChangeTrigger
+[14May2025 07:26:30.836] [modloading-worker-0/INFO] [mixin/]: Mixing MixinSummonedEntityTrigger from enigmaticlegacy.mixins.json into net.minecraft.advancements.critereon.SummonedEntityTrigger
+[14May2025 07:26:32.408] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 254bb816aee1c056c74b2ad4beb88222a499da78
+[14May2025 07:26:32.903] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
+[14May2025 07:26:33.184] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing AOTAConfig from '/workspaces/Serverdudu/servidor_minecraft/config/config/armoroftheages.json'
+[14May2025 07:26:33.404] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
+[14May2025 07:26:33.438] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Constructing mod instance...
+[14May2025 07:26:33.669] [modloading-worker-0/INFO] [Enigmatic Addons/INFO]: Constructing mod instance...
+[14May2025 07:26:33.994] [modloading-worker-0/INFO] [Enigmatic Addons/INFO]: Mod instance constructed successfully.
+[14May2025 07:26:34.060] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Mod instance constructed successfully.
+[14May2025 07:26:34.095] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/Serverdudu/servidor_minecraft/config/yacl.json5'
+[14May2025 07:26:34.102] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[14May2025 07:26:40.142] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[14May2025 07:26:40.154] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[14May2025 07:26:40.157] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[14May2025 07:26:40.159] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[14May2025 07:26:40.235] [main/INFO] [mixin/]: Mixing MixinForgeHooks from enigmaticlegacy.mixins.json into net.minecraftforge.common.ForgeHooks
+[14May2025 07:26:40.385] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[14May2025 07:26:40.399] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[14May2025 07:26:40.904] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Initializing common setup phase...
+[14May2025 07:26:40.906] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Registering packets...
+[14May2025 07:26:40.961] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Registering triggers...
+[14May2025 07:26:40.980] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Registering stats...
+[14May2025 07:26:40.982] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Common setup phase finished successfully.
+[14May2025 07:26:40.983] [modloading-worker-0/INFO] [Enigmatic Addons/INFO]: Initializing common setup phase...
+[14May2025 07:26:40.984] [modloading-worker-0/INFO] [Enigmatic Addons/INFO]: Registering packets...
+[14May2025 07:26:40.999] [modloading-worker-0/INFO] [Enigmatic Addons/INFO]: Common setup phase finished successfully.
+[14May2025 07:26:41.022] [modloading-worker-0/INFO] [harmonised.pmmo.util.MsLoggy/]: Messages Registered
+[14May2025 07:26:41.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14May2025 07:26:41.329] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14May2025 07:26:41.330] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[14May2025 07:26:41.330] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[14May2025 07:26:41.330] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[14May2025 07:26:41.331] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[14May2025 07:26:41.331] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[14May2025 07:26:41.331] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[14May2025 07:26:41.448] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[14May2025 07:26:41.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[14May2025 07:26:41.457] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14May2025 07:26:41.458] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14May2025 07:26:41.462] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14May2025 07:26:41.462] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14May2025 07:26:41.469] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Sending messages to Curios API...
+[14May2025 07:26:41.474] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[14May2025 07:26:41.481] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Initializing load completion phase...
+[14May2025 07:26:41.481] [modloading-worker-0/INFO] [Enigmatic Addons/INFO]: Initializing load completion phase...
+[14May2025 07:26:41.483] [modloading-worker-0/INFO] [Enigmatic Addons/INFO]: Registering brewing recipes...
+[14May2025 07:26:41.483] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Registering brewing recipes...
+[14May2025 07:26:41.506] [modloading-worker-0/INFO] [Enigmatic Addons/INFO]: Registering triggers...
+[14May2025 07:26:41.510] [modloading-worker-0/INFO] [Enigmatic Addons/INFO]: Load completion phase finished successfully
+[14May2025 07:26:41.533] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[14May2025 07:26:41.556] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[14May2025 07:26:41.561] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[14May2025 07:26:41.564] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[14May2025 07:26:41.729] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Successfully fetched the list of devoted believers from Enigmatic Legacy's repository.
+[14May2025 07:26:41.732] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Successfully backed up the list of devoted believers.
+[14May2025 07:26:41.732] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: ObsidianFlight, UUID: 0cf25168-1b5a-4ac9-90eb-45bb20b0afab
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Alexsist, UUID: b77d12d4-627f-47d3-965a-74e4f41854cc
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Volsarex, UUID: e9907457-0251-42de-86b7-32289c19a6c4
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Tar, UUID: 64d64b70-fde8-467e-ad70-271d5ddf26f6
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Strgnv, UUID: 93f46b5e-3f96-4bde-9de9-96e7210441f9
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: SoulRacer65, UUID: a9ca1491-c6b2-4502-a585-94336fb07e75
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: legitch, UUID: 64906813-adac-4aa9-8ac9-f25dbb677102
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: TheOutlander, UUID: 9c22cd32-4dff-42b9-946c-69548781f894
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Crobee, UUID: ed207d6d-0bec-4e0b-9674-d8455f017441
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Exlor, UUID: d45f7a78-513c-43ed-b2f7-6447a92ddaf2
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: IaruEmbyr, UUID: 97b38aa9-8c8b-4b50-8b69-f71db9a5c2d3
+[14May2025 07:26:41.733] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: HunterPhantom, UUID: b818e7a3-997e-4456-a7f0-dc7c97c42892
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Azure, UUID: 4aeb4bcc-e4b3-4851-9c1f-13d41ad7f37c
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: PixelVoxel, UUID: f9e9d0d6-eb43-46db-ae6e-b0950668c06d
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Izures, UUID: 4c2145c9-be1a-4ae4-bb9f-0003bd221a98
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: 0thLaw, UUID: a4ef9810-6c0b-45a6-9895-6bbebc70e001
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Nexus, UUID: 08e81c68-0a2f-4625-882b-ddcf3c86e351
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Fetrex, UUID: d7d73994-0fa5-4690-a8dd-4dc850563f4e
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: MasterGentar, UUID: 86a110be-dc85-4d2c-82d3-3669cb61db8f
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Dimagic, UUID: 34128f78-ad16-4ef3-a647-bb13f0aea775
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: probablyastar, UUID: 8f0f3658-5644-4f21-b5ea-324153338d87
+[14May2025 07:26:41.734] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Toastr125, UUID: 5cd5f647-d3bb-412e-b60c-0aaae21bcddd
+[14May2025 07:26:41.736] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: YesPyro, UUID: 82a617a0-56fe-4ead-82d4-9d968ca7c777
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Amadhe, UUID: 8bdb26a8-7687-49e5-829b-f298cfc10508
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Hyperion, UUID: 143e257c-b945-4700-85d2-ebcf63c1811f
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: prism182, UUID: f9048245-89cb-456c-aa2b-cc8e9d8b8c76
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Celeste-ialGamer, UUID: 4822d847-93c1-4efd-bd9f-b2d56ba1608d
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Snow_guy864335, UUID: a4fa93e5-c243-4b7b-b69a-6943152a5d2d
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Dvyant, UUID: f75e74cb-d289-459f-8d28-ea3668541e32
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Naoro, UUID: 7a195143-a6cd-4efb-8e57-deac4b7636d7
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: millie, UUID: f4fac73a-0ada-4e50-bbed-61b06f1a4d18
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: NinjaFox, UUID: 834a2387-6dec-4d57-8bd3-72be2a54ed54
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: ProstoChel, UUID: 1fd0b74a-536b-4a65-a849-5c607c950396
+[14May2025 07:26:41.737] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: (Ne)TyMVS, UUID: ac159e63-a757-4f7d-8c2c-73469a715ff3
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: TheMuffinMan, UUID: 20f48143-1e09-4c89-9c85-085b70c76953
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: solmortis, UUID: f6dbd5e9-701c-4c76-8a48-0ba4b687c76d
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Eternal_Banisher, UUID: 387aa6d4-f388-400f-b9c5-1514f238ceae
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: AbsorbingSafe11, UUID: 343ad979-87b7-4dfa-88b8-3f3fdc2e00ab
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Stygian, UUID: f6c7001f-4ce8-43f7-b4a1-a9d9d5fadb93
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: PikachuGabe0, UUID: ca7b21a6-76a5-4ea6-af48-b90f66e4f2b1
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Purifier, UUID: 58c97c29-2c25-4320-a1d2-8e5651de506b
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Sam/Barker, UUID: 0179c9aa-12c8-423c-bf96-d53c9ed479dd
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Ciege, UUID: 48b866bf-a574-4a10-b7bd-2d83d056452d
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Solbaify, UUID: 5679a7e1-29f4-4bdc-bd60-5f642d95ad68
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Samola345, UUID: b657c54f-3174-4434-bed8-14d7be8634b3
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Ozzi, UUID: 7d52df8b-963d-45c2-9c8a-aa7f20ae0659
+[14May2025 07:26:41.738] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Arix, UUID: c13feccd-e582-4ae1-aee7-35e8acf7e9e1
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Nechronom, UUID: 84b933b8-9688-4021-a039-eed55c985548
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Thauma, UUID: facc8bc4-a623-47dc-af89-ba979ac159b5
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: GrekvarZikurah, UUID: f251c109-8214-4882-b0b4-332441843a50
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Sebaty5, UUID: c6dd33f1-e851-40b4-840d-6af5ebe4ea3b
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: MarceDev, UUID: 24b26788-1ce6-44a6-a4df-45202850a9ef
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Xathanon, UUID: 806dc0b8-7d90-4776-b870-37fda466a13f
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Jusey1, UUID: 5f311b1c-8557-42cc-9c33-3605ea8f524f
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: swagfredbear27, UUID: c98b3962-3ea9-47f8-820d-134ce2691af0
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: CrazyHamburger, UUID: 57282a53-522e-4f8c-9f44-19d2068668d7
+[14May2025 07:26:41.739] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: UwUent, UUID: 43124493-b135-4467-8460-f04e7e845b63
+[14May2025 07:26:41.744] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: angelman, UUID: 85efda35-7bc1-48c5-a392-f3c23047212f
+[14May2025 07:26:41.745] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Madis0, UUID: 581a3f25-db2c-4e52-9823-62e9e4730daa
+[14May2025 07:26:41.745] [modloading-worker-0/INFO] [Enigmatic Legacy/]: Believer: Destiny, UUID: 38edb8bc-816f-47b7-95d9-f67af6017f2f
+[14May2025 07:26:41.745] [modloading-worker-0/INFO] [Enigmatic Legacy/INFO]: Load completion phase finished successfully
+[14May2025 07:26:41.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[14May2025 07:26:41.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[14May2025 07:26:41.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: AHEAD Current: 5.4.0 Target: null
+[14May2025 07:26:41.802] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[14May2025 07:26:41.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.4 Target: null
+[14May2025 07:26:46.717] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14May2025 07:26:50.181] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Serverdudu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[14May2025 07:26:50.182] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Serverdudu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[14May2025 07:26:50.348] [main/INFO] [com.simibubi.create.Create/]: Created 734 recipes which will be injected into the game
+[14May2025 07:26:50.369] [main/INFO] [com.simibubi.create.Create/]: Created 2 tags which will be injected into the game
+[14May2025 07:26:50.498] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[14May2025 07:26:52.708] [main/INFO] [mixin/]: Mixing AccessorAdvancementCommands from enigmaticlegacy.mixins.json into net.minecraft.server.commands.AdvancementCommands
+[14May2025 07:26:52.708] [main/INFO] [mixin/]: Renaming @Accessor method getAdvancementSuggestions()Lcom/mojang/brigadier/suggestion/SuggestionProvider; to getAdvancementSuggestions_$md$1fc3a0$0 in enigmaticlegacy.mixins.json:AccessorAdvancementCommands
+[14May2025 07:26:53.089] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[14May2025 07:26:53.211] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag legendary_monsters:ancient_stronghold_biomes as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.9.4 MC 1.20.1.jar)
+[14May2025 07:26:54.629] [Worker-Main-3/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 12.705167 ms
+[14May2025 07:26:55.512] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 3 modifier groups
+[14May2025 07:26:55.578] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[14May2025 07:26:55.578] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[14May2025 07:26:55.579] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[14May2025 07:26:55.579] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[14May2025 07:26:55.607] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_boards_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.619] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_trapdoor_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.621] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_planks_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.623] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_pine_bookshelf as it's serializer returned null
+[14May2025 07:26:55.625] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_ladder_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.625] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_bookshelf as it's serializer returned null
+[14May2025 07:26:55.630] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:duck_egg as it's serializer returned null
+[14May2025 07:26:55.631] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_willow_bookshelf as it's serializer returned null
+[14May2025 07:26:55.631] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:blue_wisteria_leaf_pile as it's serializer returned null
+[14May2025 07:26:55.645] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_fence_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.645] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:hibiscus_leaf_pile as it's serializer returned null
+[14May2025 07:26:55.646] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_beehive as it's serializer returned null
+[14May2025 07:26:55.649] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_boards_from_pine_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.663] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_boards_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.671] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_boards as it's serializer returned null
+[14May2025 07:26:55.700] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_plum_bookshelf as it's serializer returned null
+[14May2025 07:26:55.700] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_sign_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.706] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_leaf_pile as it's serializer returned null
+[14May2025 07:26:55.707] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_door_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.707] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_furnace_boat as it's serializer returned null
+[14May2025 07:26:55.707] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pink_wisteria_leaves_from_leaf_piles as it's serializer returned null
+[14May2025 07:26:55.711] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_crate as it's serializer returned null
+[14May2025 07:26:55.713] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_planks_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.717] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_pine_chest as it's serializer returned null
+[14May2025 07:26:55.722] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_slab_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.723] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe croptopia_additions:chocolate_churro_recipe
+com.google.gson.JsonSyntaxException: Unknown item 'croptopia_additions:chocolate_covered_churro'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14May2025 07:26:55.728] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_beehive as it's serializer returned null
+[14May2025 07:26:55.733] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_bookshelf as it's serializer returned null
+[14May2025 07:26:55.741] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_stairs_from_plum_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.757] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_slab_from_wisteria_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.758] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_ladder as it's serializer returned null
+[14May2025 07:26:55.761] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_ladder_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.763] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe boh:craft_bowlpf_creepypasta
+com.google.gson.JsonSyntaxException: Empty ingredient not allowed here
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:295) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14May2025 07:26:55.771] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_fence_from_plum_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.771] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_door_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.773] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_wisteria_bookshelf as it's serializer returned null
+[14May2025 07:26:55.789] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_button_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.789] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:blue_wisteria_leaves_from_leaf_piles as it's serializer returned null
+[14May2025 07:26:55.794] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_boards_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.796] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_bookshelf as it's serializer returned null
+[14May2025 07:26:55.797] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_stairs_from_wisteria_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.799] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_ladder_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.802] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_planks_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.803] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_trapdoor_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.807] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_fence_gate_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.811] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
+com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14May2025 07:26:55.813] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum as it's serializer returned null
+[14May2025 07:26:55.813] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_chest as it's serializer returned null
+[14May2025 07:26:55.814] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_slab_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.816] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_furnace_boat as it's serializer returned null
+[14May2025 07:26:55.817] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_pine_boat as it's serializer returned null
+[14May2025 07:26:55.817] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_stairs_from_willow_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.821] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_planks_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.825] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_ladder_from_plum_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.827] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_leaves_from_leaf_piles as it's serializer returned null
+[14May2025 07:26:55.828] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe croptopia_additions:cherry_soda_recipe_2
+com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:cherry'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14May2025 07:26:55.830] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:purple_wisteria_leaf_pile as it's serializer returned null
+[14May2025 07:26:55.832] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
+com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14May2025 07:26:55.839] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_ladder as it's serializer returned null
+[14May2025 07:26:55.845] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_leaves_from_leaf_piles as it's serializer returned null
+[14May2025 07:26:55.846] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_pressure_plate_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.857] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_stairs_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.858] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:white_wisteria_leaves_from_leaf_piles as it's serializer returned null
+[14May2025 07:26:55.860] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_ladder_from_pine_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.861] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_ladder_from_willow_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.862] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_ladder as it's serializer returned null
+[14May2025 07:26:55.863] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_leaf_pile as it's serializer returned null
+[14May2025 07:26:55.864] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_door_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.864] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_leaf_pile as it's serializer returned null
+[14May2025 07:26:55.865] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_chest as it's serializer returned null
+[14May2025 07:26:55.871] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe boh:copper_pipe
+com.google.gson.JsonSyntaxException: Empty ingredient not allowed here
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:295) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14May2025 07:26:55.873] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_willow_boat as it's serializer returned null
+[14May2025 07:26:55.881] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_fence_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.884] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_chest as it's serializer returned null
+[14May2025 07:26:55.887] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_slab_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.892] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_plum_boat as it's serializer returned null
+[14May2025 07:26:55.892] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_sign_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.893] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_slab_from_plum_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.895] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_pressure_plate_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:cherry_crate as it's serializer returned null
+[14May2025 07:26:55.900] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_stairs_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.901] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_fence_gate_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.902] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_stairs_from_pine_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.903] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_leaves_from_leaf_piles as it's serializer returned null
+[14May2025 07:26:55.904] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_boards as it's serializer returned null
+[14May2025 07:26:55.909] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_beehive as it's serializer returned null
+[14May2025 07:26:55.925] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_fence_gate_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.925] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_sign_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.926] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_ladder as it's serializer returned null
+[14May2025 07:26:55.931] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_fence_from_pine_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.932] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_furnace_boat as it's serializer returned null
+[14May2025 07:26:55.941] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_fence_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.943] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_boards_from_plum_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.944] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_furnace_boat as it's serializer returned null
+[14May2025 07:26:55.944] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_stairs_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.947] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_slab_from_pine_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.950] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_button_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.954] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:white_wisteria_leaf_pile as it's serializer returned null
+[14May2025 07:26:55.958] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_fence_from_willow_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.959] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_boards as it's serializer returned null
+[14May2025 07:26:55.966] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_button_from_wisteria_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.967] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_fence_from_wisteria_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.970] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_button_from_pine_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.976] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_sign_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.976] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:cherries as it's serializer returned null
+[14May2025 07:26:55.978] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:purple_wisteria_leaves_from_leaf_piles as it's serializer returned null
+[14May2025 07:26:55.986] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_button_from_plum_planks_sawing as it's serializer returned null
+[14May2025 07:26:55.987] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_pressure_plate_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:55.998] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_slab_from_willow_planks_sawing as it's serializer returned null
+[14May2025 07:26:56.000] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_fence_gate_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.000] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_ladder_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.003] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_bookshelf as it's serializer returned null
+[14May2025 07:26:56.009] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:hibiscus_leaves_from_leaf_piles as it's serializer returned null
+[14May2025 07:26:56.010] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_plum_chest as it's serializer returned null
+[14May2025 07:26:56.011] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pink_wisteria_leaf_pile as it's serializer returned null
+[14May2025 07:26:56.012] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_willow_chest as it's serializer returned null
+[14May2025 07:26:56.012] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_button_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.012] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_pressure_plate_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.014] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:purified_soul
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:brewing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14May2025 07:26:56.023] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_button_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.025] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe croptopia_additions:chocolate_covered_churro_2
+com.google.gson.JsonSyntaxException: Unknown item 'croptopia:churro'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14May2025 07:26:56.035] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_door_from_wisteria_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.037] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_wisteria_boat as it's serializer returned null
+[14May2025 07:26:56.038] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_boards_from_willow_planks_sawing as it's serializer returned null
+[14May2025 07:26:56.039] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:duck_egg_crate as it's serializer returned null
+[14May2025 07:26:56.039] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_boards_from_wisteria_planks_sawing as it's serializer returned null
+[14May2025 07:26:56.041] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_button_from_willow_planks_sawing as it's serializer returned null
+[14May2025 07:26:56.043] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_chest as it's serializer returned null
+[14May2025 07:26:56.044] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_boards_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.044] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_stairs_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.048] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_wisteria_chest as it's serializer returned null
+[14May2025 07:26:56.048] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_slab_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.048] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_trapdoor_from_pine_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.052] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_trapdoor_from_plum_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.052] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_beehive as it's serializer returned null
+[14May2025 07:26:56.052] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_fence_from_willow_logs_sawing as it's serializer returned null
+[14May2025 07:26:56.059] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_boards as it's serializer returned null
+[14May2025 07:26:56.063] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_ladder_from_wisteria_planks_sawing as it's serializer returned null
+[14May2025 07:26:56.076] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 41 recipes
+[14May2025 07:26:56.079] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'environmental:husbandry/tame_all_slabfish_atmospheric' as its conditions were not met
+[14May2025 07:26:56.079] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'environmental:husbandry/tame_all_slabfish_autumnity' as its conditions were not met
+[14May2025 07:26:56.081] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'environmental:husbandry/tame_all_slabfish_endergetic' as its conditions were not met
+[14May2025 07:26:56.082] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 11 modifier groups
+[14May2025 07:26:56.324] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5694 advancements
+[14May2025 07:26:56.345] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 1 modifier groups
+[14May2025 07:26:56.406] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 134 dynamic modifiers and 4 modifier redirects in 48.38989 ms
+[14May2025 07:26:56.412] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 40 modifier tags for 138 modifiers in 6.632443 ms
+[14May2025 07:26:56.413] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.661713 ms
+[14May2025 07:26:56.417] [main/INFO] [tconstruct/]: Loaded 48 spilling fluids in 3.18651 ms
+[14May2025 07:26:56.420] [main/INFO] [superlord.prehistoricfauna.common.recipes.PaleontologyTableRecipeJsonManager/]: Data loader for prehistoricfauna/paleontology_table loaded 3 jsons
+[14May2025 07:26:56.430] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[14May2025 07:26:56.439] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[14May2025 07:26:56.440] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 1.141798 ms
+[14May2025 07:26:56.446] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 51 materials in 4.548608 ms
+[14May2025 07:26:56.448] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 20 materials in 1.97919 ms
+[14May2025 07:26:56.458] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 358 stats loaded for 60 materials in 9.054018 ms
+[14May2025 07:26:56.468] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 185 traits loaded for 60 materials in 10.625557 ms
+[14May2025 07:26:56.481] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 12.035325 ms
+[14May2025 07:26:56.485] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 4.315625 ms
+[14May2025 07:26:56.498] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[14May2025 07:26:59.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14May2025 07:26:59.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14May2025 07:26:59.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14May2025 07:26:59.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14May2025 07:26:59.887] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14May2025 07:26:59.923] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14May2025 07:27:00.010] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14May2025 07:27:00.011] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14May2025 07:27:00.011] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14May2025 07:27:00.011] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14May2025 07:27:01.093] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14May2025 07:27:01.094] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[14May2025 07:27:01.094] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14May2025 07:27:01.116] [Server thread/INFO] [mixin/]: Mixing MixinPhantomSpawner from enigmaticlegacy.mixins.json into net.minecraft.world.level.levelgen.PhantomSpawner
+[14May2025 07:27:02.341] [Server thread/INFO] [mixin/]: Mixing MixinEnchantmentHelper from enigmaticlegacy.mixins.json into net.minecraft.world.item.enchantment.EnchantmentHelper
+[14May2025 07:27:02.642] [Server thread/INFO] [mixin/]: Mixing MixinHoglinTasks from enigmaticlegacy.mixins.json into net.minecraft.world.entity.monster.hoglin.HoglinAi
+[14May2025 07:27:02.685] [Server thread/INFO] [mixin/]: Mixing MixinPiglinTasks from enigmaticlegacy.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[14May2025 07:27:02.685] [Server thread/INFO] [mixin/]: Renaming synthetic method lambda$onPiglinBarter$0(Ljava/util/List;Lnet/minecraft/world/item/ItemStack;)V to md1fc3a0$lambda$onPiglinBarter$0$0 in enigmaticlegacy.mixins.json:MixinPiglinTasks
+[14May2025 07:27:03.185] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.Boat from class net.valent.sweet_calamity.entity.custom.SweetCalamityBoatEntity
+[14May2025 07:27:03.185] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.Boat from class net.valent.sweet_calamity.entity.custom.SweetCalamityChestBoatEntity
+[14May2025 07:27:11.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14May2025 07:27:15.932] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:15.933] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:15.933] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:15.934] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:15.935] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:15.935] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:15.936] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:15.937] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:15.937] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:15.938] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:16.082] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 07:27:16.581] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[14May2025 07:27:17.009] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5928 ms
+[14May2025 07:27:17.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.983s)! For help, type "help"
+[14May2025 07:27:17.096] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14May2025 07:27:17.104] [Server thread/INFO] [harmonised.pmmo.util.MsLoggy/]: Loading PMMO Saved Data
+[14May2025 07:27:17.105] [Server thread/INFO] [harmonised.pmmo.util.MsLoggy/]: Computing data for cache
+[14May2025 07:27:17.107] [Server thread/INFO] [harmonised.pmmo.util.MsLoggy/]: PMMO Server loading process complete
+[14May2025 07:27:17.107] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[14May2025 07:27:17.108] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[14May2025 07:27:17.108] [Server thread/INFO] [superlord.prehistoricfauna.common.recipes.PaleontologyTableRecipeJsonManager/]: Registered 3 jsons with items!
+[14May2025 07:27:17.109] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[14May2025 07:27:58.306] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dududi[/127.2.48.238:35487] logged in with entity id 1606 at (-4.0245036640873835, 69.0, -6.699999988079071)
+[14May2025 07:27:58.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi joined the game
+[14May2025 07:27:58.767] [Server thread/INFO] [Jade/]: Syncing config to Dududi (e98ace00-b03d-342d-9c86-58b207c06aa3)
+[14May2025 07:27:58.777] [Server thread/INFO] [Enigmatic Legacy/INFO]: Synchronizing omniconfig files to Dududi...
+[14May2025 07:27:58.778] [Server thread/INFO] [Enigmatic Legacy/INFO]: Sending data for enigmaticaddons-common.omniconf
+[14May2025 07:27:58.778] [Server thread/INFO] [Enigmatic Legacy/INFO]: Sending data for enigmaticlegacy-common.omniconf
+[14May2025 07:27:58.779] [Server thread/INFO] [Enigmatic Legacy/INFO]: Granting starter gear to Dududi
+[14May2025 07:27:58.912] [Server thread/INFO] [Enigmatic Legacy/INFO]: Blue Skies detected: false
+[14May2025 07:28:05.351] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yamidssj[/127.9.104.236:51051] logged in with entity id 1700 at (-6.5, 71.0, -3.5)
+[14May2025 07:28:05.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj joined the game
+[14May2025 07:28:05.535] [Server thread/INFO] [Jade/]: Syncing config to yamidssj (1bbf284a-078c-3a84-a8da-0a79d58a8b53)
+[14May2025 07:28:05.537] [Server thread/INFO] [Enigmatic Legacy/INFO]: Synchronizing omniconfig files to yamidssj...
+[14May2025 07:28:05.537] [Server thread/INFO] [Enigmatic Legacy/INFO]: Sending data for enigmaticaddons-common.omniconf
+[14May2025 07:28:05.538] [Server thread/INFO] [Enigmatic Legacy/INFO]: Sending data for enigmaticlegacy-common.omniconf
+[14May2025 07:28:05.539] [Server thread/INFO] [Enigmatic Legacy/INFO]: Granting starter gear to yamidssj
+[14May2025 07:28:05.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Ice and Fire]
+[14May2025 07:28:56.808] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-5, y=72, z=-14}
+[14May2025 07:28:57.141] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Vlad17[/127.135.149.182:58361] logged in with entity id 1845 at (-3.5, 74.0, -9.5)
+[14May2025 07:28:57.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 joined the game
+[14May2025 07:28:57.254] [Server thread/INFO] [Jade/]: Syncing config to Vlad17 (676340dc-6763-3391-9c57-b9426e8ea54e)
+[14May2025 07:28:57.255] [Server thread/INFO] [Enigmatic Legacy/INFO]: Synchronizing omniconfig files to Vlad17...
+[14May2025 07:28:57.255] [Server thread/INFO] [Enigmatic Legacy/INFO]: Sending data for enigmaticaddons-common.omniconf
+[14May2025 07:28:57.256] [Server thread/INFO] [Enigmatic Legacy/INFO]: Sending data for enigmaticlegacy-common.omniconf
+[14May2025 07:28:57.256] [Server thread/INFO] [Enigmatic Legacy/INFO]: Granting starter gear to Vlad17
+[14May2025 07:28:57.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 has made the advancement [Ice and Fire]
+[14May2025 07:29:00.911] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-6, y=72, z=-13}
+[14May2025 07:29:46.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [The Lighthouse]
+[14May2025 07:29:56.863] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-4, y=67, z=-6}
+[14May2025 07:30:12.351] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-4, y=64, z=-4}
+[14May2025 07:30:21.716] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4894ms or 97 ticks behind
+[14May2025 07:30:36.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yamidssj moved too quickly! 7.406687790969855,6.0,5.183595386333039
+[14May2025 07:30:51.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: agility has been set to level 40 for Vlad17]
+[14May2025 07:31:04.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: agility has been set to level 40 for yamidssj]
+[14May2025 07:31:13.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: agility has been set to level 40 for Dududi]
+[14May2025 07:31:29.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: alchemy has been set to level 40 for Dududi]
+[14May2025 07:31:37.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: alchemy has been set to level 40 for Vlad17]
+[14May2025 07:31:42.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Tools of the Trade]
+[14May2025 07:31:42.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Where Is The Stone Pen?]
+[14May2025 07:31:43.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was slain by Jason Voorhees
+[14May2025 07:31:43.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Your First Grave]
+[14May2025 07:31:43.657] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 07:31:44.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: alchemy has been set to level 40 for yamidssj]
+[14May2025 07:31:59.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: archery has been set to level 40 for yamidssj]
+[14May2025 07:32:11.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: archery has been set to level 40 for Dududi]
+[14May2025 07:32:15.178] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[14May2025 07:32:19.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: archery has been set to level 40 for Vlad17]
+[14May2025 07:32:26.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: building has been set to level 40 for Vlad17]
+[14May2025 07:32:34.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: building has been set to level 40 for yamidssj]
+[14May2025 07:32:38.998] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[14May2025 07:32:42.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: building has been set to level 40 for Dududi]
+[14May2025 07:32:45.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Crops of the Wild]
+[14May2025 07:32:48.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Acquire Hardware]
+[14May2025 07:32:58.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: combat has been set to level 40 for Dududi]
+[14May2025 07:32:58.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was shot by Skeleton
+[14May2025 07:32:58.701] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 07:33:18.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: combat has been set to level 40 for Vlad17]
+[14May2025 07:33:33.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: combat has been set to level 40 for yamidssj]
+[14May2025 07:33:42.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: cooking has been set to level 40 for yamidssj]
+[14May2025 07:33:44.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has reached the goal [Here They Come]
+[14May2025 07:33:50.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Elemental Might]
+[14May2025 07:33:55.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Lore Writer]
+[14May2025 07:33:57.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: cooking has been set to level 40 for Dududi]
+[14May2025 07:34:00.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Sweet Dreams]
+[14May2025 07:34:01.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 was shot by Skeleton
+[14May2025 07:34:01.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 has made the advancement [Your First Grave]
+[14May2025 07:34:01.856] [Server thread/INFO] [tombstone/]: The player Vlad17 has successfully been saved
+[14May2025 07:34:05.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: cooking has been set to level 40 for Vlad17]
+[14May2025 07:34:24.489] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[14May2025 07:34:29.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: crafting has been set to level 40 for Vlad17]
+[14May2025 07:34:38.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: crafting has been set to level 40 for yamidssj]
+[14May2025 07:34:43.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Knowledge of Death]
+[14May2025 07:34:43.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has reached the goal [Greed may lead to loss]
+[14May2025 07:34:50.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: crafting has been set to level 40 for Dududi]
+[14May2025 07:34:57.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was slain by Rat
+[14May2025 07:34:57.678] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 07:35:04.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: endurance has been set to level 40 for Dududi]
+[14May2025 07:35:14.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: endurance has been set to level 40 for yamidssj]
+[14May2025 07:35:21.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: endurance has been set to level 40 for Vlad17]
+[14May2025 07:35:29.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: engineering has been set to level 40 for Vlad17]
+[14May2025 07:35:37.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: engineering has been set to level 40 for Dududi]
+[14May2025 07:35:44.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: engineering has been set to level 40 for yamidssj]
+[14May2025 07:35:55.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: excavation has been set to level 40 for yamidssj]
+[14May2025 07:36:04.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 has made the advancement [Alex's Mobs]
+[14May2025 07:36:06.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: engineering has been set to level 40 for Vlad17]
+[14May2025 07:36:30.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: excavation has been set to level 40 for Vlad17]
+[14May2025 07:36:46.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: excavation has been set to level 40 for Dududi]
+[14May2025 07:36:46.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Gone Bananas!]
+[14May2025 07:36:54.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: farming has been set to level 40 for Dududi]
+[14May2025 07:37:00.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: farming has been set to level 40 for yamidssj]
+[14May2025 07:37:05.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Stone Age]
+[14May2025 07:37:08.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: farming has been set to level 40 for Vlad17]
+[14May2025 07:37:22.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: fightgroup has been set to level 40 for Vlad17]
+[14May2025 07:37:29.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: fightgroup has been set to level 40 for yamidssj]
+[14May2025 07:37:35.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: fightgroup has been set to level 40 for Dududi]
+[14May2025 07:37:45.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Getting an Upgrade]
+[14May2025 07:37:52.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: flying has been set to level 40 for Dududi]
+[14May2025 07:37:54.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 has made the advancement [Sweet Dreams]
+[14May2025 07:37:56.596] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[14May2025 07:37:58.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: flying has been set to level 40 for Vlad17]
+[14May2025 07:38:07.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: flying has been set to level 40 for yamidssj]
+[14May2025 07:38:20.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: gunslinging has been set to level 40 for yamidssj]
+[14May2025 07:38:27.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: gunslinging has been set to level 40 for Vlad17]
+[14May2025 07:38:32.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: gunslinging has been set to level 40 for Dududi]
+[14May2025 07:38:37.343] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[14May2025 07:38:42.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: magic has been set to level 40 for Dududi]
+[14May2025 07:38:45.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 has made the advancement [Acquire Hardware]
+[14May2025 07:39:00.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: hunter has been set to level 40 for Dududi]
+[14May2025 07:39:09.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: hunter has been set to level 40 for Vlad17]
+[14May2025 07:39:15.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: hunter has been set to level 40 for yamidssj]
+[14May2025 07:39:36.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: magic has been set to level 40 for Vlad17]
+[14May2025 07:39:41.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: magic has been set to level 40 for yamidssj]
+[14May2025 07:39:50.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: mining has been set to level 40 for yamidssj]
+[14May2025 07:39:58.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: mining has been set to level 40 for Vlad17]
+[14May2025 07:40:03.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: mining has been set to level 40 for Dududi]
+[14May2025 07:40:17.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: sailing has been set to level 40 for Dududi]
+[14May2025 07:40:26.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: sailing has been set to level 40 for Vlad17]
+[14May2025 07:40:34.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: sailing has been set to level 40 for yamidssj]
+[14May2025 07:40:45.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was shot by Skeleton
+[14May2025 07:40:45.102] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 07:40:50.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: slayer has been set to level 40 for Dududi]
+[14May2025 07:40:55.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 has made the advancement [Knowledge of Death]
+[14May2025 07:40:55.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 has made the advancement [Ambush]
+[14May2025 07:40:55.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 has made the advancement [Monster Hunter]
+[14May2025 07:40:59.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: slayer has been set to level 40 for yamidssj]
+[14May2025 07:41:05.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 has made the advancement [Knowledge raises the soul]
+[14May2025 07:41:06.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: slayer has been set to level 40 for Vlad17]
+[14May2025 07:41:14.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has reached the goal [Chain Death]
+[14May2025 07:41:14.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj fell from a high place
+[14May2025 07:41:14.808] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 07:41:21.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 was slain by Corpse Fish
+[14May2025 07:41:21.499] [Server thread/INFO] [tombstone/]: The player Vlad17 has successfully been saved
+[14May2025 07:41:21.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: smithing has been set to level 40 for Vlad17]
+[14May2025 07:41:27.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: smithing has been set to level 40 for yamidssj]
+[14May2025 07:41:32.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: smithing has been set to level 40 for Dududi]
+[14May2025 07:41:40.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: swimming has been set to level 40 for Dududi]
+[14May2025 07:41:46.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: swimming has been set to level 40 for Vlad17]
+[14May2025 07:41:51.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: swimming has been set to level 40 for yamidssj]
+[14May2025 07:42:04.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: taming has been set to level 40 for yamidssj]
+[14May2025 07:42:06.143] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[14May2025 07:42:11.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: taming has been set to level 40 for Dududi]
+[14May2025 07:42:15.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: taming has been set to level 40 for Vlad17]
+[14May2025 07:42:28.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: woodcutting has been set to level 40 for Vlad17]
+[14May2025 07:42:36.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: woodcutting has been set to level 40 for Dududi]
+[14May2025 07:42:42.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dududi: woodcutting has been set to level 40 for yamidssj]
+[14May2025 07:42:52.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was shot by Skeleton
+[14May2025 07:42:52.405] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 07:43:03.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Knowledge raises the soul]
+[14May2025 07:43:25.775] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[14May2025 07:44:49.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Stone Age]
+[14May2025 07:45:59.927] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[14May2025 07:45:59.928] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[14May2025 07:46:06.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was shot by Skeleton
+[14May2025 07:46:06.115] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 07:46:07.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [The Most Useful Key]
+[14May2025 07:46:19.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has reached the goal [A Fast Comeback]
+[14May2025 07:46:24.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Getting an Upgrade]
+[14May2025 07:47:29.018] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Vlad17 lost connection: Disconnected
+[14May2025 07:47:29.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vlad17 left the game
+[14May2025 07:47:29.066] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[14May2025 07:49:23.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Alex's Caves]
+[14May2025 07:49:26.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [It Belongs in a Museum]
+[14May2025 07:49:43.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was slain by Murmur
+[14May2025 07:49:43.458] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 07:49:51.926] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[14May2025 07:52:23.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [The Parrots and the Bats]
+[14May2025 07:52:59.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Monster Hunter]
+[14May2025 07:52:59.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [A Strange Grave Dust]
+[14May2025 07:53:41.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Isn't It Iron Pick]
+[14May2025 07:55:00.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was slain by Enderman
+[14May2025 07:55:00.559] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 07:56:07.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Suit Up]
+[14May2025 08:01:14.895] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[14May2025 08:02:00.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj suffocated in a wall
+[14May2025 08:02:00.459] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 08:04:41.945] [Worker-Main-2/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[14May2025 08:04:42.595] [Worker-Main-2/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[14May2025 08:04:42.595] [Worker-Main-2/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[14May2025 08:04:42.713] [Worker-Main-2/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[14May2025 08:05:32.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was shot by Skeleton
+[14May2025 08:05:32.506] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 08:06:13.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Monster Hunter]
+[14May2025 08:07:26.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was slain by Zombie
+[14May2025 08:07:26.256] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 08:10:58.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Knowledge of Death]
+[14May2025 08:10:58.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Ambush]
+[14May2025 08:10:58.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Voluntary Exile]
+[14May2025 08:11:48.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj has made the advancement [Ambush]
+[14May2025 08:12:45.839] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[14May2025 08:12:48.335] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[14May2025 08:12:54.833] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[14May2025 08:12:55.532] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[14May2025 08:12:56.235] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[14May2025 08:12:59.634] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[14May2025 08:13:01.034] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[14May2025 08:13:01.735] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[14May2025 08:13:02.433] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[14May2025 08:13:15.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Cover Me with Diamonds]
+[14May2025 08:13:15.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Your First Receptacle]
+[14May2025 08:13:15.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Funeral Theft]
+[14May2025 08:13:40.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yamidssj moved wrongly!
+[14May2025 08:13:55.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj was shot by Skeleton
+[14May2025 08:13:55.448] [Server thread/INFO] [tombstone/]: The player yamidssj has successfully been saved
+[14May2025 08:14:01.988] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yamidssj lost connection: Disconnected
+[14May2025 08:14:01.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yamidssj left the game
+[14May2025 08:16:37.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi withered away whilst fighting Nightmare Stalker
+[14May2025 08:16:37.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Your First Grave]
+[14May2025 08:16:37.742] [Server thread/INFO] [tombstone/]: The player Dududi has successfully been saved
+[14May2025 08:19:47.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has made the advancement [Sweet Dreams]
+[14May2025 08:20:09.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi was shot by Pillager
+[14May2025 08:20:09.596] [Server thread/INFO] [tombstone/]: The player Dududi has successfully been saved
+[14May2025 08:20:18.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi has reached the goal [Here They Come]
+[14May2025 08:26:57.286] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dududi lost connection: Disconnected
+[14May2025 08:26:57.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dududi left the game
